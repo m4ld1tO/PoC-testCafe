@@ -1,0 +1,22 @@
+{
+  "name": "poc-testcafe",
+  "version": "1.0.0",
+  "description": "A repo with a PoC with testCafe, a javascript framework for e2e testing made easy and helpfully.",
+  "main": "test.js",
+  "scripts": {
+    "test": "testcafe chrome:headless:cdpPort=9223 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4ld1tO/PoC-testCafe.git"
+  },
+  "author": "m4ld1tO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4ld1tO/PoC-testCafe/issues"
+  },
+  "homepage": "https://github.com/m4ld1tO/PoC-testCafe#readme",
+  "devDependencies": {
+    "testcafe": "*"
+  }
+}
